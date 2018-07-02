@@ -1,0 +1,19 @@
+{
+    "name": "alamin/contact",
+    "description": "This is contact packages. you can contact with email send",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mdalamin",
+            "email": "mdalamin6554@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Alamin\\Contact\\": "src/"
+        }
+    }
+}
