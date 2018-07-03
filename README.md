@@ -30,7 +30,18 @@ This will both update `composer.json` and install the package into the `vendor/`
 
  php artisan migrate 
  
- that's all
+ 
+ ### 4. Publishing :
+ 
+ First initialise the config file by running this command:
+
+```bash
+php artisan vendor:publish --provider="Alamin\Contact\ContactServiceProvider"
+```
+```bash
+config directory you can see Config.php
+```
+see and array and your email address put this array.
  
  
 
